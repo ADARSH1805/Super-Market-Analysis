@@ -1,0 +1,34 @@
+{
+  "regression": {
+    "Linear Regression": {
+      "R2": 0.9014581300273137,
+      "MAE": 59.578504752026255,
+      "RMSE": 80.06894618543154,
+      "CV_R2_mean": 0.8832437099542183,
+      "CV_R2_std": 0.01460079141946515
+    },
+    "Random Forest Regressor": {
+      "R2": 0.9985338483115084,
+      "MAE": 6.593452949999974,
+      "RMSE": 9.766594698053247,
+      "CV_R2_mean": 0.9983702360395121,
+      "CV_R2_std": 0.0002247528785565779
+    }
+  },
+  "baseline_mae": 209.771352,
+  "classification": {
+    "Logistic Regression": {
+      "Accuracy": 0.92,
+      "Precision": 0.9468085106382979,
+      "Recall": 0.89,
+      "F1": 0.9175257731958762
+    },
+    "Random Forest Classifier": {
+      "Accuracy": 0.95,
+      "Precision": 0.96875,
+      "Recall": 0.93,
+      "F1": 0.9489795918367347
+    }
+  },
+  "median_threshold": 253.848
+}
